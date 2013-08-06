@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/toast_key"
+        android:summaryOff="@string/toast_summOff"
+        android:summaryOn="@string/toast_summOn"
+        android:title="@string/toast_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/sound_key"
+        android:summaryOff="@string/sound_summOff"
+        android:summaryOn="@string/sound_summOn"
+        android:title="@string/sound_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/tab_column1_name"
+        android:key="@string/tab_column1_key"
+        android:summary="@string/tab_column_summary"
+        android:title="@string/tab_column1_title" />
+    <EditTextPreference
+        android:defaultValue="@string/tab_column2_name"
+        android:key="@string/tab_column2_key"
+        android:summary="@string/tab_column_summary"
+        android:title="@string/tab_column2_title" />
+    <EditTextPreference
+        android:defaultValue="@string/tab_column3_name"
+        android:key="@string/tab_column3_key"
+        android:summary="@string/tab_column_summary"
+        android:title="@string/tab_column3_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/rating_key"
+        android:summaryOff="@string/rating_summOff"
+        android:summaryOn="@string/rating_summOn"
+        android:title="@string/rating_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/friend_phone_name"
+        android:inputType="phone"
+        android:key="@string/friend_phone_key"
+        android:summary="@string/friend_phone_summary"
+        android:title="@string/friend_phone_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/splash_screen_key"
+        android:summaryOff="@string/splash_screen_summOff"
+        android:summaryOn="@string/splash_screen_summOn"
+        android:title="@string/splash_screen_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/clear_db_key"
+        android:summaryOff="@string/clear_db_summOff"
+        android:summaryOn="@string/clear_db_summOn"
+        android:title="@string/clear_db_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/create_db_key"
+        android:summaryOff="@string/create_db_summOff"
+        android:summaryOn="@string/create_db_summOn"
+        android:title="@string/create_db_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/del_import_file_key"
+        android:summaryOff="@string/del_import_file_summOff"
+        android:summaryOn="@string/del_import_file_summOn"
+        android:title="@string/del_import_file_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/folder_save_name"
+        android:key="@string/folder_save_key"
+        android:summary="@string/folder_save_summary"
+        android:title="@string/folder_save_title" />
+    <EditTextPreference
+        android:defaultValue="@string/uri_about_name"
+        android:key="@string/uri_about_key"
+        android:summary="@string/uri_about_summary"
+        android:title="@string/uri_about_title" />
+    <EditTextPreference
+        android:defaultValue="@string/user_name_name"
+        android:key="@string/user_name_key"
+        android:summary="@string/user_name_summary"
+        android:title="@string/user_name_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hard Fridge</string>
+
+    <!-- OptionsMenu Strings -->
+    <string name="menu_options_hello">Привет</string>
+    <string name="menu_options_about">About</string>
+    <string name="menu_options_clearDB">Удалить все</string>
+    <string name="menu_options_addDefaultDB">Add default DB</string>
+    <string name="menu_options_import_json">Импорт</string>
+    <string name="menu_options_addNewData">Добавить</string>
+    <string name="menu_options_showAll">Показать все</string>
+
+    <!-- Context Menu Strings -->
+    <string name="menu_ctx_rotate_cw">Повернуть CW</string>
+    <string name="menu_ctx_rotate_ccw">Повернуть CCW</string>
+    <string name="menu_ctx_delete">Удалить</string>
+    <string name="menu_ctx_edit">Правка</string>
+    <string name="menu_ctx_import">Импорт</string>
+    <string name="menu_ctx_send">Отправить</string>
+    <string name="menu_ctx_save_as_file">Сохранить как файл</string>
+
+    <!-- Email String -->
+    <string name="email_choose">Choose an Email client :</string>
+
+    <!-- Toast string -->
+    <string name="toast_show_hello">Привет!</string>
+    <string name="toast_show_all_data_deleted">OK! Все записи удалены!</string>
+    <string name="toast_show_go_add_new_item">Пойдем и добавим!</string>
+    <string name="toast_show_not_found">Ничего не найдено</string>
+    <string name="toast_show_good_choice">Прекрасный выбор!</string>
+    <string name="toast_show_nothing">Tут ничего нет!</string>
+    <string name="toast_show_item_is_deleted">Запись удалена!</string>
+    <string name="toast_show_db_is_not_opened">DB is not opened!</string>
+    <string name="toast_show_field_name_empty">Заполните поле \&apos;Имя\&apos;!</string>
+    <string name="toast_show_item_is_edited">Запись исправлена</string>
+    <string name="toast_show_item_is_added">Запись добавлена</string>
+    <string name="toast_show_nothing_already_exist">Nothing уже есть!</string>
+    <string name="toast_show_it_is_disabled">Это запрещено в \&apos;Настройках\&apos;!</string>
+    <string name="toast_show_try_catch">Some thing came up:(</string>
+    <string name="toast_show_allowed_files">Только файлы *</string>
+    <string name="toast_show_wrong_file">Something wrong with file!</string>
+    <string name="toast_show_file_not_imported">Выберите другой файл!</string>
+    <string name="toast_show_file_yes_imported">Файл можно импортировать</string>
+    <string name="toast_show_path_for_saving">Файл сохранен в</string>
+    <string name="toast_show_file_is_deleted">Файл удален!</string>
+    <string name="toast_show_nothing_happens">Ничего не произошло</string>
+    <string name="toast_show_get_from_contacts">Добавим из Контактов!</string>
+
+    <!-- Dialog message string -->
+    <string name="dialog_msg_clear_db">Все записи будут удалены. Продолжить?</string>
+    <string name="dialog_msg_item_delete">Запись будет удалена. Продолжить?</string>
+    <string name="dialog_msg_whose_help">Кто окажет помощь?</string>
+    <string name="dialog_msg_where_take_img">Где берем картинку?</string>
+    <string name="dialog_msg_progress_bar_message">Подождем&#8230;</string>
+    <string name="dialog_msg_file_delete">Файл будет удален. Продолжить?</string>
+
+    <!-- Preferences Strings -->
+    <string name="tab_column_summary">Вписать ваш \&apos;key word\&apos;</string>
+    <string name="tab_column1_title">Key word 1</string>
+    <string name="tab_column1_key">name_column1</string>
+    <string name="tab_column1_name">Key word 1</string>
+    <string name="tab_column2_title">Key word 2</string>
+    <string name="tab_column2_key">name_column2</string>
+    <string name="tab_column2_name">Key word 2</string>
+    <string name="tab_column3_title">Key word 3</string>
+    <string name="tab_column3_key">name_column3</string>
+    <string name="tab_column3_name">Key word 3</string>
+    <string name="tab_column4_title">Key word 4\n(рейтинг)</string>
+    <string name="friend_phone_key">friend_phone</string>
+    <string name="friend_phone_name">0911?</string>
+    <string name="friend_phone_summary">Вписать номер телефона</string>
+    <string name="friend_phone_title">Телефон друга</string>
+    <string name="toast_key">Show Toast</string>
+    <string name="toast_title">Подсказки</string>
+    <string name="toast_summOn">Подсказки ВКЛ</string>
+    <string name="toast_summOff">Подсказки ВЫКЛ</string>
+    <string name="sound_key">Sound key</string>
+    <string name="sound_title">Звуки</string>
+    <string name="sound_summOn">Звуки ВКЛ</string>
+    <string name="sound_summOff">Звуки ВЫКЛ</string>
+    <string name="rating_key">Rating choice</string>
+    <string name="rating_title">Рейтинг</string>
+    <string name="rating_summOn">Рейтинг участвует в выборе</string>
+    <string name="rating_summOff">Рейтинг НЕ участвует в выборе</string>
+    <string name="splash_screen_key">Splash screen show</string>
+    <string name="splash_screen_title">Заставка</string>
+    <string name="splash_screen_summOn">Заставка ВКЛ</string>
+    <string name="splash_screen_summOff">Заставка ВЫКЛ</string>
+    <string name="clear_db_key">Clear DB</string>
+    <string name="clear_db_title">Удалить все</string>
+    <string name="clear_db_summOn">Удаление разрешено</string>
+    <string name="clear_db_summOff">Удаление заперещено</string>
+    <string name="del_import_file_key">Delete imported files</string>
+    <string name="del_import_file_title">Импортируемый файл</string>
+    <string name="del_import_file_summOn">Удалить после импорта</string>
+    <string name="del_import_file_summOff">Не удалять после импорта</string>
+    <string name="folder_save_key">Folder for saved files</string>
+    <string name="folder_save_name">HardFridge</string>
+    <string name="folder_save_summary">Папка для сохранения *.hf файлов</string>
+    <string name="folder_save_title">Ваш каталог</string>
+    <string name="uri_about_key">URI for ABOUT</string>
+    <string name="uri_about_name">hqup.blogspot.com</string>
+    <string name="uri_about_summary">URI для информации \&apos;About\&apos;</string>
+    <string name="uri_about_title">About http://</string>
+    <string name="create_db_key">Create default DB</string>
+    <string name="create_db_title">Add default DB</string>
+    <string name="create_db_summOn">Добавление DB разрешено</string>
+    <string name="create_db_summOff">Добавление DB запрещено</string>
+    <string name="user_name_key">User name</string>
+    <string name="user_name_name">User</string>
+    <string name="user_name_summary">Вписать имя</string>
+    <string name="user_name_title">Ваше имя</string>
+
+    <!-- Text onto the buttons -->
+    <string name="btntext_preferences">Настройки</string>
+    <string name="btntext_search">Искать!</string>
+    <string name="btntext_add_data">Добавить</string>
+    <string name="btntext_del">Удалить</string>
+    <string name="btntext_edit">Правка</string>
+    <string name="btntext_help">Помощь</string>
+    <string name="btntext_save">Сохранить</string>
+    <string name="btntext_import">Импорт</string>
+    <string name="btntext_manual">Manual</string>
+    <string name="btntext_find">Найти</string>
+    <string name="btntext_call_number">ввести номер</string>
+    <string name="btntext_yes">Да!</string>
+    <string name="btntext_no">Нет</string>
+    <string name="btntext_google">Google</string>
+    <string name="btntext_friend">Друг</string>
+    <string name="btntext_gallery">Галерея</string>
+    <string name="btntext_camera">Камера</string>
+    <string name="btntext_contact">Из контактов</string>
+
+    <!-- A little bit odd string. Where is the good of it? -->
+    <string name="content_descript_nine_patch">NinePatchDrawable</string>
+    <string name="content_descript_manual_image">It is just picture</string>
+    <string name="content_descript_item_one_img_fullscreen">It is full-screen image for item</string>
+    <string name="content_descript_item_one_img_thumbnail">It is the thumbnail for item</string>
+    <string name="content_descript_item_one_edit_img_thumbnail">It is the thumbnail for edited item</string>
+    <string name="content_descript_item_one_list_thumbnail">It is the thumbnail for item one list</string>
+    <string name="content_descript_item_one_list_thumbnail_frame">It is the thumbnail frame for item one list</string>
+    <string name="content_descript_anim_tween">ImageView for TweenAnimation</string>
+    <string name="content_descript_anim_frame">ImageView for FrameAnimation</string>
+    <string name="content_descript_file_list_row">File list row Image</string>
+    <string name="content_descript_home_image">Home Image</string>
+    <string name="content_descript_choice_man_fly">Flying man</string>
+
+    <!-- Text onto the screen -->
+    <string name="txt_open_the_door">Open the door and find what you want</string>
+    <string name="txt_press_menu">You could press MENU</string>
+    <string name="txt_set_number">Номер тлф.</string>
+    <string name="txt_call_to_item">Позвонить</string>
+    <string name="txt_phone_temp_number">911?</string>
+    <string name="txt_name_empty">Имя</string>
+    <string name="txt_manual_title">Manual</string>
+    <string name="txt_make_your_choice">Make your choice!</string>
+    <string name="txt_hi_user">Hi,</string>
+    <string name="txt_db_is_empty">База данных ПУСТА!\nData Base is EMPTY!</string>
+    <string name="txt_manual_description">Good luck! Practice makes perfect!</string>
+    <string name="txt_item_description_test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="txt_manual_text">Блокнот с поиском по базе ваших деловых контактов.\n
+Позволяет быстро найти человека (среди ваших знакомых),
+отвечающего параметрам поиска (художник, художник/фреска, etc.).\n
+Параллельно (для неумеющих готовить), может служить записной книгой кулинарных рецептов — задав имеющийся набор продуктов (пиво, , пиво/бекон/креветки), находите опробованный рецепт,
+который вам по силам.\n
+Чем больше параметров отбора (0 - 4), тем точнее результат. 
+Поиск по одному (любому) параметру всегда увенчается успехом.
+База для тестирования устанавливается по умолчанию 
+и удаляется без труда.\n\n
+Enjoy.</string>
+
+    <!-- Default __________DB resources -->
+    <string name="db_name_empty">Nothing</string>
+    <string name="db_name_d1">George</string>
+    <string name="db_tok_1_d1">surveyor</string>
+    <string name="db_tok_2_d1">Virginia</string>
+    <string name="db_tok_3_d1">French and Indian War</string>
+    <string name="db_text_d1">George Washington (22 февраля 1732, Бриджс-Крик, Виргиния — 14 декабря 1799, Маунт-Вернон, Виргиния) — американский государственный деятель, первый президент Соединённых Штатов Америки (1789—1797), Отец-основатель США, главнокомандующий Континентальной армии, участник войны за независимость, создатель американского института президентства.</string>
+    <!-- Default __________DB resources -->
+    <string name="db_name_d2">Thomas</string>
+    <string name="db_tok_1_d2">law clerk</string>
+    <string name="db_tok_2_d2">Virginia</string>
+    <string name="db_tok_3_d2">West Point</string>
+    <string name="db_text_d2">Thomas Jefferson (13 апреля 1743, Шэдуэлл, Виргиния — 4 июля 1826, Шарлотсвилл, Виргиния) — один из авторов Декларации независимости (1776), 3-й президент США в 1801—1809, один из отцов-основателей этого государства, выдающийся политический деятель, дипломат и философ эпохи Просвещения. Основными событиями его президентства, успешного для страны, были покупка у Франции Луизианы (1803) и экспедиция Льюиса и Кларка (1804—1806).</string>
+    <!-- Default __________DB resources -->
+    <string name="db_name_d3">Abraham</string>
+    <string name="db_tok_1_d3">captain</string>
+    <string name="db_tok_2_d3">perish by the sword</string>
+    <string name="db_tok_3_d3">Homestead Act</string>
+    <string name="db_text_d3">Abraham Lincoln (12 февраля 1809 — 15 апреля 1865) — американский государственный деятель, 16-й президент США (1861—1865) и первый от Республиканской партии, освободитель американских рабов, национальный герой американского народа.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d4">Alexander</string>
+    <string name="db_tok_1_d4">not president</string>
+    <string name="db_tok_2_d4">perish by the sword</string>
+    <string name="db_tok_3_d4">Jay Treaty</string>
+    <string name="db_text_d4">Alexander Hamilton (11 января 1755—1804) — государственный деятель США, видный деятель Первой американской буржуазной революции, не президент США. Идеолог и руководитель Партии федералистов с момента её создания. Автор программы ускоренного торгово-промышленного развития США, 1-й министр финансов США.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d5">Andrew</string>
+    <string name="db_tok_1_d5">courier</string>
+    <string name="db_tok_2_d5">twice majority</string>
+    <string name="db_tok_3_d5">First Seminole War</string>
+    <string name="db_text_d5">Andrew Jackson (15 марта 1767, округ Ланкестер, штат Южная Каролина  — 8 июня 1845, Нэшвилл, штат Теннесси) — 7-й Президент США с 1829 по 1837. Первый президент США, избранный как кандидат от Демократической партии; считается одним из её основателей.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d6">Ulysses</string>
+    <string name="db_tok_1_d6">lieutenant</string>
+    <string name="db_tok_2_d6">twice majority</string>
+    <string name="db_tok_3_d6">Civil War</string>
+    <string name="db_text_d6">Ulysses Simpson Grant (27 апреля 1822, Пойнт-Плезант, Огайо — 23 июля 1885, Уилтон, Нью-Йорк) — американский политический и военный деятель, полководец северян в годы Гражданской войны в США, генерал армии (25 июля 1866 — 4 марта 1869). C 4 марта 1869 по 4 марта 1877 — 18-й президент США.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d7">Benjamin</string>
+    <string name="db_tok_1_d7">not president</string>
+    <string name="db_tok_2_d7">Massachusetts</string>
+    <string name="db_tok_3_d7">lightning rod</string>
+    <string name="db_text_d7">Benjamin Franklin (17 января 1706 — 17 апреля 1790) — политический деятель, дипломат, учёный, изобретатель, журналист, издатель, масон, не президент США. Один из лидеров войны за независимость США. Один из разработчиков дизайна Большой Государственной Печати США (Великой печати). Первый американец, ставший иностранным членом Российской академии наук.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d8">Virginia</string>
+    <string name="db_tok_1_d8">painter</string>
+    <string name="db_tok_2_d8">Virginia</string>
+    <string name="db_tok_3_d8">South Africa</string>
+    <string name="db_text_d8">Born in Hartford, Connecticut, Virginia Mallard is a multi-talented artist (she prefers to be called a painter) who has won numerous awards and whose paintings can be found in private and corporate collections around the world. She has lived in Europe, South Africa and various states within the U.S. Her work has been exhibited widely both here and abroad, and she has created painting series on South Africa, Egypt, Switzerland, The Cosmos and now Oceans and Rivers.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d9">Beer</string>
+    <string name="db_tok_1_d9">beer</string>
+    <string name="db_tok_2_d9">beer</string>
+    <string name="db_tok_3_d9">beer</string>
+    <string name="db_text_d9">1. Забить в Гугль \&apos;best fighting Mike Tyson download free\&apos;\n2. Download\n3. Позвать товарищей\n4. Отключить телефон\n5. Enjoy</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d10">Dreck</string>
+    <string name="db_tok_1_d10">beer</string>
+    <string name="db_tok_2_d10">champagne</string>
+    <string name="db_tok_3_d10">glass</string>
+    <string name="db_text_d10">Achtung! Warning! Не пытайтесь повторить это дома!</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d11">Heavy</string>
+    <string name="db_tok_1_d11">beer</string>
+    <string name="db_tok_2_d11">vodka</string>
+    <string name="db_tok_3_d11">garlic</string>
+    <string name="db_text_d11">Go at it boldly! Все равно завтра выходной — странные, неадекватные, неприязненные люди&#8230; Им нужно время, чтобы принять вас as it stands.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d12">Glamour</string>
+    <string name="db_tok_1_d12">beer</string>
+    <string name="db_tok_2_d12">champagne</string>
+    <string name="db_tok_3_d12">caviar</string>
+    <string name="db_text_d12">1. Побриться\n2. Постараться провернуть exchange beer on girl\n3. Enjoy (maybe)</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d13">Positive</string>
+    <string name="db_tok_1_d13">water</string>
+    <string name="db_tok_2_d13">water</string>
+    <string name="db_tok_3_d13">water</string>
+    <string name="db_text_d13">Ну, тоже не самый плохой рецепт. При некоторой настойчивости голодная смерть не грозит. В тонне воды 16 грамм жира.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d14">Money</string>
+    <string name="db_tok_1_d14">money</string>
+    <string name="db_tok_2_d14">money</string>
+    <string name="db_tok_3_d14">money</string>
+    <string name="db_text_d14">1. Любой каприз. Если есть проблемы — это к доктору.</string>
+    <!-- Default __________DB resources -->
+
+    <string name="db_name_d15">Prawns in bacon</string>
+    <string name="db_tok_1_d15">beer</string>
+    <string name="db_tok_2_d15">prawn</string>
+    <string name="db_tok_3_d15">bacon</string>
+    <string name="db_text_d15">На 150 г сырых королевских креветок нужно 7 полосок бекона с прожилками мяса. Нарезать бекон длинными полосками, завернуть креветки, обжарить на сливочном масле 5 минут до розового оттенка.</string>
+    <!-- Default __________DB resources -->
+
+</resources>

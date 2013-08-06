@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="contact_data_names">
+        <item>_ID</item>
+        <item>Name</item>
+        <item>Number</item>
+        <item>Email</item>
+        <item>Website</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,178 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/layoutItemOneView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_for_arrangement"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ivItemOneImg_FullScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/content_descript_item_one_img_fullscreen"
+            android:src="@drawable/one_empty_thumbnail"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutItemOneFull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_for_arrangement"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_for_arrangement"
+            android:layout_marginTop="@dimen/margin_for_arrangement" >
+
+            <ImageView
+                android:id="@+id/ivItemOneImg_Thumbnail"
+                android:layout_width="@dimen/item_one_thumbnail_width"
+                android:layout_height="@dimen/item_one_thumbnail_heigth"
+                android:layout_marginLeft="@dimen/margin_for_arrangement"
+                android:layout_marginRight="@dimen/margin_for_arrangement_big"
+                android:contentDescription="@string/content_descript_item_one_img_thumbnail"
+                android:src="@drawable/d_1" />
+
+            <LinearLayout
+                android:id="@+id/layoutTokenEntry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvItemOneTitle"
+                    style="@style/ItemOneTokenText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_for_arrangement"
+                    android:layout_marginTop="@dimen/margin_for_arrangement"
+                    android:layout_weight="1"
+                    android:text="@string/txt_name_empty"
+                    android:textSize="@dimen/text_size_activity_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvItemOneToken_1"
+                    style="@style/ItemOneTokenText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column1_name" />
+
+                <TextView
+                    android:id="@+id/tvItemOneToken_2"
+                    style="@style/ItemOneTokenText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column2_name" />
+
+                <TextView
+                    android:id="@+id/tvItemOneToken_3"
+                    style="@style/ItemOneTokenText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column3_name" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_RatingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_for_arrangement"
+            android:orientation="vertical" >
+
+            <RatingBar
+                android:id="@+id/ratingBarItemOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:numStars="5"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_margin="@dimen/margin_for_arrangement"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvItemFullText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_item_description_test"
+                android:textSize="@dimen/text_size_activity_text" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/layoutPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvItemOneCallToNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_for_arrangement"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/txt_call_to_item"
+                android:textColor="@color/green" />
+
+            <Button
+                android:id="@+id/btnItemOneCallToNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:hint="@string/btntext_call_number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnItemOneDel"
+                style="@android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btntext_del" />
+
+            <Button
+                android:id="@+id/btnItemOneEdit"
+                style="@android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btntext_edit" />
+
+            <Button
+                android:id="@+id/btnItemOneHelp"
+                style="@android:attr/buttonBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btntext_help" />
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

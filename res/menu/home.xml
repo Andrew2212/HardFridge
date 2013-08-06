@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuHomeOptions_addDB"
+        android:orderInCategory="1"
+        android:title="@string/menu_options_addDefaultDB"/>
+    <item
+        android:id="@+id/menuHomeOptions_clearDB"
+        android:orderInCategory="1"
+        android:title="@string/menu_options_clearDB"/>
+    <item
+        android:id="@+id/menuHomeOptions_about"
+        android:orderInCategory="1"
+        android:title="@string/menu_options_about"/>
+    <item
+        android:id="@+id/menuHomeOptions_hello"
+        android:orderInCategory="1"
+        android:title="@string/menu_options_hello"/>
+
+</menu>

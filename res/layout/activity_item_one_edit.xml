@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutEditRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/margin_for_arrangement"
+    android:isScrollContainer="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutItemEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_for_arrangement"
+        android:layout_marginTop="@dimen/margin_for_arrangement"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edtItemEdit_Title"
+            style="@style/ItemOneEditTokenText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/txt_name_empty" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutItemEditViewAndTokens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_for_arrangement"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <!-- Why is this need android:baselineAligned="false" ???? -->
+
+        <ImageView
+            android:id="@+id/ivItemEditThumbnail"
+            android:layout_width="@dimen/item_one_edit_thumbnail_width"
+            android:layout_height="@dimen/item_one_edit_thumbnail_heigth"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_for_arrangement"
+            android:clickable="true"
+            android:contentDescription="@string/content_descript_item_one_edit_img_thumbnail"
+            android:gravity="center"
+            android:src="@drawable/one_empty_thumbnail" />
+
+        <LinearLayout
+            android:id="@+id/layoutItemEditTokens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_for_arrangement"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtxtItemEdit_Token_1"
+                style="@style/ItemOneEditTokenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/tab_column1_name" />
+
+            <EditText
+                android:id="@+id/edtxtItemEdit_Token_2"
+                style="@style/ItemOneEditTokenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/tab_column2_name" />
+
+            <EditText
+                android:id="@+id/edtxtItemEdit_Token_3"
+                style="@style/ItemOneEditTokenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/tab_column3_name" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_for_arrangement"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/edtxtItemEditDescripton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_item_description_test"
+            android:scrollbars="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layoutItemEditPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_for_arrangement_big" >
+
+        <TextView
+            android:id="@+id/tvItemEditl_CallTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_for_arrangement_big"
+            android:layout_marginRight="@dimen/margin_for_arrangement"
+            android:text="@string/txt_set_number"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/edtxtItemEdit_PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_phone_temp_number"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnItemEdit_Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btntext_save" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="contact_data_names">
+        <item>_ID</item>
+        <item>Имя</item>
+        <item>Тел.</item>
+        <item>Эл. почта</item>
+        <item>Сайт</item>
+    </string-array>
+
+</resources>

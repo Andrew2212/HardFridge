@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="@dimen/margin_for_arrangement_big" >
+
+    <ImageView
+        android:id="@+id/fileicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="@dimen/margin_for_arrangement" 
+         android:contentDescription="@string/content_descript_file_list_row" />
+
+    <TextView
+        android:id="@+id/filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:gravity="left|bottom"
+        android:padding="@dimen/margin_for_arrangement"
+        android:textSize="@dimen/text_size_activity_text"
+        android:textStyle="bold"
+       />
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_for_arrangement"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layoutSpinnersAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_for_arrangement"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/layoutSpinnersTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_for_arrangement"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvSpinner1"
+                    style="@style/SpinerTokenTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column1_title" />
+
+                <TextView
+                    android:id="@+id/tvSpinner2"
+                    style="@style/SpinerTokenTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column2_title" />
+
+                <TextView
+                    android:id="@+id/tvSpinner3"
+                    style="@style/SpinerTokenTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column3_title" />
+
+                <TextView
+                    android:id="@+id/tvSpinner4"
+                    style="@style/SpinerTokenTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tab_column4_title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutSpinners"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutTxtOpenTheDoor"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvGreetingFirstChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/txt_make_your_choice"
+                android:textSize="@dimen/text_size_activity_text" />
+
+            <ImageView
+                android:id="@+id/ivFlyingMan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_for_arrangement_big"
+                android:contentDescription="@string/content_descript_choice_man_fly"
+                android:src="@drawable/man_choice_fly" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnSearch"
+                style="@android:attr/buttonBarStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btntext_find" />
+
+            <Button
+                android:id="@+id/btnPref"
+                style="@android:attr/buttonBarStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btntext_preferences" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPreesMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_for_arrangement"
+            android:gravity="center"
+            android:text="@string/txt_press_menu"
+            android:textColor="@color/green" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageFridge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_descript_nine_patch" />
+
+</merge>

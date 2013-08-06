@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuOptions_addNewData"
+        android:orderInCategory="1"
+        android:title="@string/menu_options_addNewData"/>
+    <item
+        android:id="@+id/menuOptions_import_json"
+        android:orderInCategory="1"
+        android:title="@string/menu_options_import_json"/>
+        <item
+        android:id="@+id/menuOptions_addDB"
+        android:orderInCategory="2"
+        android:title="@string/menu_options_addDefaultDB"/>
+    <item
+        android:id="@+id/menuOptions_showAll"
+        android:orderInCategory="2"
+        android:title="@string/menu_options_showAll"/>
+    <item
+        android:id="@+id/menuOptions_clearDB"
+        android:orderInCategory="3"
+        android:title="@string/menu_options_clearDB"/>
+    <item
+        android:id="@+id/menuOptions_hello"
+        android:orderInCategory="3"
+        android:title="@string/menu_options_hello"/>
+
+</menu>

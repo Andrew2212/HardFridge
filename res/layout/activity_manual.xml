@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_for_arrangement" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/txt_manual_title"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_size_manual_title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txt_manual_description"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_manual_text" >
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/man_manual" 
+        android:contentDescription="@string/content_descript_manual_image"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/tvManual"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:gravity="center"
+            android:text="@string/txt_manual_text"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/text_size_manual_text" >
+        </TextView>
+    </ScrollView>
+
+</LinearLayout>

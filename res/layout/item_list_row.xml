@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ivItemOnListImg"
+            android:layout_width="@dimen/itm_one_list_thumbnail_width"
+            android:layout_height="@dimen/itm_one_list_thumbnail_height"
+            android:contentDescription="@string/content_descript_item_one_list_thumbnail"
+            android:src="@drawable/one_empty_thumbnail" />
+
+        <ImageView
+            android:id="@+id/ivItemOnListImgFrame"
+            android:layout_width="@dimen/itm_one_list_thumbnail_width"
+            android:layout_height="@dimen/itm_one_list_thumbnail_height"
+            android:background="@drawable/item_one_list_image_frame"
+            android:contentDescription="@string/content_descript_item_one_list_thumbnail_frame" >
+        </ImageView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvItemOnListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_for_arrangement_big"
+        android:text=""
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/text_size_activity_text" >
+    </TextView>
+
+    <RatingBar
+        android:id="@+id/ratingItemOnList"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:isIndicator="true" />
+
+</LinearLayout>

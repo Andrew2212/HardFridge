@@ -1,0 +1,127 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutGeneralHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_for_arrangement"
+        android:layout_marginLeft="@dimen/margin_for_arrangement_big_extra"
+        android:layout_marginRight="@dimen/margin_for_arrangement_big_extra"
+        android:layout_marginTop="@dimen/margin_for_arrangement"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/layoutHomeTop"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="@dimen/margin_for_arrangement_big_extra"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:id="@+id/ivHomeTop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|bottom"
+                android:contentDescription="@string/content_descript_home_image"
+                android:src="@drawable/man_home" />
+
+            <TextView
+                android:id="@+id/tvHomeTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_hi_user"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/text_size_activity_title" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_for_arrangement" >
+
+            <Button
+                android:id="@+id/btnHome_Search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btntext_search" />
+
+            <Button
+                android:id="@+id/btnHome_AddNewData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btntext_add_data" />
+
+            <Button
+                android:id="@+id/btnHome_Import"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btntext_import" />
+
+            <Button
+                android:id="@+id/btnHome_Contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btntext_contact" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutHomeCenter"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/txt_open_the_door"
+                android:textColor="@color/green" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnHome_Preferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btntext_preferences" />
+
+            <Button
+                android:id="@+id/btnHome_Manual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btntext_manual" />
+
+            <TextView
+                android:id="@+id/tvHomePreesMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_for_arrangement"
+                android:gravity="center"
+                android:text="@string/txt_press_menu"
+                android:textColor="@color/green" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageHome_Fridge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_descript_nine_patch" />
+
+</merge>
