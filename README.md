@@ -17,3 +17,5 @@ Search by one (any) parameter is always successful.
 A small entries base for testing attached.
 Exports, imports and sending entries (email, Skype).
 Enjoy.
+
+PS. I don't know why Google link looks so little bit odd
